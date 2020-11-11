@@ -14,6 +14,7 @@ from https://www.mathworks.com/matlabcentral/fileexchange/8277-fminsearchbnd-fmi
 
 __________________________________
 **QuickStart**
+
 To perform an exemplary simulation, download all files in one folder, open the file `<Subgapk.m>` and click run.
 In the example, the photodiode consists of the layer sequence *glass/ITO/ZnO/material/MoO/Ag*. The optical constants
 of each layer are provided in the file `<Optical constants.xls>` except for the sub-gap extinction coefficient of *material* that
