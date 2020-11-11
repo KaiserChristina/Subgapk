@@ -5,9 +5,9 @@ Kaiser, C.; Zeiske, S.; Meredith, P.; Armin, A. Determining Ultralow Absorption 
 
 The function TMAT (and corresponding I_mat and L_mat) for calculating the optical field via the transfer matrix
 method was taken from:
-Accounting for Interference, Scattering, and Electrode Absorption to Make
-Accurate Internal Quantum Efficiency Measurements in Organic and Other 
-Thin Solar Cells, G. F. Burkhard, E. T. Hoke, M. D. McGehee, Adv. Mater., 22, 3293.
+Accounting for Interference, Scattering, and Electrode Absorption to Make Accurate Internal Quantum Efficiency Measurements in Organic and Other 
+Thin Solar Cells, G. F. Burkhard, E. T. Hoke, M. D. McGehee, Adv. Mater., 22, 3293. https://doi.org/10.1002/adma.201000883
+
 
 The numerical optimization problem was solved using the MATLAB(R) fminsearchbnd function as available
 from https://www.mathworks.com/matlabcentral/fileexchange/8277-fminsearchbnd-fminsearchcon.
@@ -24,6 +24,7 @@ with the above layer sequence, but different active layer thicknesses.
 To obtain the sub-gap extinction coefficient for a different material and layer sequence,
 adapt the input section of the `<Subgapk.m>` file, add new optical constants to the `<Optical constants.xls>` 
 and add new EQE spectra as .xls files to the folder. Change `<EQE_filename>` to your own files names in the input section of `<Subgapk.m>`.
+More information is provided in the comments of the input section.
 
 Keep the format identical to the exemplary files, otherwise errors will be thrown.
 
